@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
-  struct dtnilai {
-    char nrp[10];
-    char nama[20];
-    double nilai;
-  };
-  struct dtnilai my_struct;
+struct dtnilai {
+  char nrp[10];
+  char nama[20];
+  double nilai;
+};
+struct dtnilai my_struct;
 
 void tampil(struct dtnilai *p)
 {
