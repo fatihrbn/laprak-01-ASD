@@ -12,7 +12,7 @@ void tampil(struct dtnilai *p)
 {
   printf("\n%s ", p->nrp);
   printf("%s ", p->nama);
-  printf("%6.2lf ", p->nama);
+  printf("%6.2lf ", p->nilai);
 }
 
 int main() {
